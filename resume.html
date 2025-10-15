@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>履歷表 - AU111021046</title>
+    <style>
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f7f9;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        header p {
+            margin: 5px 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            color: #2c3e50;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 8px 0;
+        }
+        .skills span {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>李俊誠</h1>
+        <p>學號：AU111021046</p>
+        <p>📧 email@example.com | 📞 09xx-xxx-xxx</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>個人簡介</h2>
+            <p>一名熱愛學習與挑戰的學生，擅長團隊合作，對於程式設計與系統開發有濃厚興趣。</p>
+        </section>
+
+        <section>
+            <h2>學歷</h2>
+            <ul>
+                <li>亞洲大學 - 資訊工程學系 (2021 - 至今)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>技能</h2>
+            <div class="skills">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Python</span>
+                <span>Java</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>作品 / 經驗</h2>
+            <ul>
+                <li>校園專題：植物病害影像自動辨識系統</li>
+                <li>個人專案：咖啡館點餐網站 (使用 LAMP + AWS)</li>
+            </ul>
+            <button onclick="showAlert()">查看更多</button>
+        </section>
+
+    </div>
+
+    <footer>
+        © 2025 AU111021046 履歷表
+    </footer>
+
+    <script>
+        function showAlert() {
+            alert("感謝查看！更多作品將陸續更新。");
+        }
+    </script>
+
+</body>
+</html>
