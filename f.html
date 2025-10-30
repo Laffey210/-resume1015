@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>履歷表 - 李俊誠</title>
+<style>
+  body { font-family: "Microsoft JhengHei", sans-serif; margin: 0; padding: 0; background: #f4f7f9; color: #333; }
+  .resume { display: flex; min-height: 100vh; }
+  .left-panel { background: #1c355e; color: #fff; width: 35%; padding: 40px 25px; box-sizing: border-box; }
+  .right-panel { flex: 1; background: #fff; padding: 40px 50px; box-sizing: border-box; }
+  .photo { width: 150px; height: 150px; border-radius: 50%; overflow: hidden; margin: 0 auto 20px; border: 4px solid #fff; }
+  .photo img { width: 100%; height: 100%; object-fit: cover; }
+  h1 { text-align: center; margin: 0; font-size: 28px; letter-spacing: 1px; }
+  .student-id { text-align: center; font-size: 14px; color: #d0d6e2; margin-top: 5px; }
+  h2 { font-size: 18px; color: #3498db; border-bottom: 2px solid #3498db; padding-bottom: 5px; margin-top: 30px; }
+  .subtitle { text-align: center; font-size: 14px; color: #d0d6e2; margin-bottom: 20px; }
+  .info, .education, .skills { margin-top: 30px; }
+  .info p, .education p, .skills span { font-size: 14px; line-height: 1.8; }
+  .skills span { display: inline-block; background: #3498db; color: #fff; padding: 5px 10px; border-radius: 4px; margin: 3px; }
+  .section { margin-bottom: 30px; }
+  .section h2 { color: #1c355e; border-bottom: 2px solid #1c355e; }
+  ul { list-style-type: none; padding: 0; margin: 0; }
+  ul li { margin-bottom: 10px; }
+  .contact-icon { margin-right: 8px; }
+  footer { text-align: center; padding: 10px; background: #1c355e; color: #fff; }
+</style>
+</head>
+<body>
+  <div class="resume">
+    <!-- 左欄 -->
+    <div class="left-panel">
+      <div class="photo">
+        <img src="photo.jpg" alt="個人照片">
+      </div>
+      <h1>李俊誠</h1>
+      <p class="student-id">學號：AU111021046</p>
+      <p class="subtitle">亞洲大學｜資訊工程學系</p>
+
+      <div class="info">
+        <h2>聯絡資訊</h2>
+        <p>📞 09xx-xxx-xxx</p>
+        <p>📧 email@example.com</p>
+        <p>🌐 github.com/Laffey210</p>
+      </div>
+
+      <div class="education">
+        <h2>學歷</h2>
+        <p>亞洲大學<br>資訊工程學系（學士）</p>
+      </div>
+
+      <div class="skills">
+        <h2>技能</h2>
+        <span>Python</span>
+        <span>YOLOv8 / TFLite</span>
+        <span>Raspberry Pi 5</span>
+        <span>HIWIN 機械臂</span>
+        <span>AWS (EC2 / S3 / Secrets Manager)</span>
+        <span>Git & GitHub Pages</span>
+        <span>HTML / CSS / JS</span>
+      </div>
+    </div>
+
+    <!-- 右欄 -->
+    <div class="right-panel">
+      <div class="section">
+        <h2>個人簡介</h2>
+        <p>一名熱愛學習與挑戰的學生，擅長團隊合作，對於程式設計與系統開發有濃厚興趣。熟悉 Python、C/C++、嵌入式開發與 AIoT 應用，對雲端與資料處理亦有實務經驗。</p>
+      </div>
+
+      <div class="section">
+        <h2>專案經驗</h2>
+        <ul>
+          <li>番茄成熟度影像辨識 + 機械手臂採摘（Raspberry Pi 5 + YOLOv8 + TFLite）</li>
+          <li>AWS Academy 動態咖啡館網站（EC2 + Cloud9 + PHP + Secrets Manager）</li>
+          <li>個人履歷網站（GitHub Pages 自動部署）</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    版權所有 © 李俊誠 — 2025
+  </footer>
+</body>
+</html>
